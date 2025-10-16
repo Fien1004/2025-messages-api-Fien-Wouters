@@ -10,6 +10,7 @@ const config = require('config');
 // Configuration: use config package with an environment variable fallback.
 // Provide a MONGODB_URI in production; otherwise use the config/default.json value.
 const mongoUri = process.env.MONGODB_URI || config.get('mongo.uri');
+console.log(mongoUri);
 
 mongoose.connect(mongoUri)
   .then(() => console.log('Connected to MongoDB'))
