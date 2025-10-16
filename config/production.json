@@ -1,0 +1,5 @@
+{
+    "mongo": {
+        "uri": "mongodb+srv://fienw1004_db_user:CLyUcEUlZpN39wYy@messages-2025.bexl4am.mongodb.net/?retryWrites=true&w=majority&appName=messages-2025"    
+    }
+}
